@@ -1,3 +1,11 @@
+---
+title: "MovieCluster"
+output:
+  html_document:
+    toc: true
+    output_dir: "C:/Users/daniel.mois/IdeaProjects/TCC/html"
+---
+
 ```{r}
 rm(list = ls())
 ```
@@ -15,8 +23,8 @@ library(lubridate)
 ```
 
 ```{r}
-movieDatabase = read.csv('resources/tmdb_5000_movies.csv')
-audience = read_delim("resources/letterboxd.csv", 
+movieDatabase = read.csv('C:/Users/daniel.mois/IdeaProjects/TCC/resources/tmdb_5000_movies.csv')
+audience = read_delim("C:/Users/daniel.mois/IdeaProjects/TCC/resources/letterboxd.csv", 
     delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
