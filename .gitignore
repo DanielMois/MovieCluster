@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 Rmd/MovieCluster.html
+resources/lb.csv
+resources/movieId.csv
